@@ -22,8 +22,7 @@ bmi = weight / ((height / 100) **2)
 st.markdown(f"Your BMI is: <span style='color:blue; font-size:20px; font-weight:bold;'>{bmi:.2f}</span>", unsafe_allow_html=True)
 
 # BMI categories
-st.write("***⭐✨💥BMI CATEGORIES💥✨⭐***")
-st.write("===================================")
+st.markdown(f"<span style='color:green; font-size:28px; font-weight:bold; font-style:italic; text-decoration:underline;'>***⭐✨💥 BMI CATEGORIES 💥✨⭐***</span>",unsafe_allow_html=True)
 st.write("- Underweight: BMI less than 18.5")
 st.write("- Normal weight: BMI of 18.5 to 24.9")
 st.write("- Overweight: BMI of 25 to 29.9")
